@@ -10,7 +10,7 @@
                 <bean class="org.apache.ignite.configuration.CacheConfiguration">
                     <property name="name" value="myCache"/>
                     <property name="atomicityMode" value="ATOMIC"/>
-                    <property name="backups" value="0"/>
+                    <property name="backups" value="2"/>
                     <property name="cacheMode" value="PARTITIONED"/>
                 </bean>
             </list>
